@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-electron/
+release/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
