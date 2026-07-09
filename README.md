@@ -14,7 +14,7 @@ A lightweight, VS Code-inspired desktop code editor built from scratch using **E
 
 ## Features
 
-### 📁 Workspace & Native File Explorer
+### Workspace & Native File Explorer
 * **Recursive Folder Tree**: Fast, recursive directory scanner ignoring common dependency directories (`node_modules`, `.git`, build output dirs).
 * **Folders-First Sorting**: Naturally organizes directories before files alphabetically.
 * **Native Context Menu**: Right-click nodes in the file explorer to trigger Native OS actions: *New File*, *New Folder*, *Rename*, and *Delete*.
