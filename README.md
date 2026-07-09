@@ -1,4 +1,4 @@
-# 🚀 Electron Desktop Code Editor
+# Electron Desktop Code Editor
 
 A lightweight, VS Code-inspired desktop code editor built from scratch using **Electron**, **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **CodeMirror 6**.
 
@@ -12,7 +12,7 @@ A lightweight, VS Code-inspired desktop code editor built from scratch using **E
 
 ---
 
-## ✨ Features
+## Features
 
 ### 📁 Workspace & Native File Explorer
 * **Recursive Folder Tree**: Fast, recursive directory scanner ignoring common dependency directories (`node_modules`, `.git`, build output dirs).
@@ -20,20 +20,20 @@ A lightweight, VS Code-inspired desktop code editor built from scratch using **E
 * **Native Context Menu**: Right-click nodes in the file explorer to trigger Native OS actions: *New File*, *New Folder*, *Rename*, and *Delete*.
 * **State Retention**: Workspace expansion states (which folders are expanded/collapsed) are remembered across operations.
 
-### 📝 Multi-Tab Editor Area
+### Multi-Tab Editor Area
 * **CodeMirror 6 Core**: Features word wrap, line numbers, active line highlights, bracket matching, auto-indentation, and rich history operations.
 * **Syntax Highlighting**: Supports Javascript, TypeScript (TSX/JSX), HTML, CSS, JSON, and Markdown out of the box.
 * **Tab-State Caching**: Remembers and restores the cursor coordinates, scroll offset, and full undo/redo action histories when switching tabs.
 * **Unsaved Warnings**: Displays a dirty dot indicator on the Tab and prompts before closing unsaved files.
 
-### 🎨 Modern Dark Theme Layout
+### Modern Dark Theme Layout
 * **Frameless Layout**: Clean title bar showing active workspace paths and custom window control buttons.
 * **Horizontal Resizable Sidebar**: Smoothly drag sidebar borders to expand or collapse your directory explorer.
 * **Vibrant Details**: Sleek dark scrollbars, tooltips on hover, and active state styles.
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Shortcut | Description |
 | :--- | :--- |
@@ -46,7 +46,7 @@ A lightweight, VS Code-inspired desktop code editor built from scratch using **E
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 desktop-code-editor/
@@ -82,7 +82,7 @@ desktop-code-editor/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -130,15 +130,10 @@ npm run electron:build
 
 ---
 
-## 🛡️ Security Best Practices
+##Security Best Practices
 
 This editor implements standard Electron security practices:
 1. **Context Isolation**: Enabled inside the renderer.
 2. **Node Integration**: Disabled in the renderer to prevent arbitrary system commands execution.
 3. **Preload API**: Restricts access via `contextBridge.exposeInMainWorld`, allowing only specific file-management and window actions.
 
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
